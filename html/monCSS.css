@@ -1,0 +1,49 @@
+html{
+    background-color:  #263238 ;    
+    display: table ;
+    margin: auto ;
+    font-family: "Montserrat rev=1";
+    color:  #922b21 ;
+    
+}
+
+h1{
+    color:  #cd6155 ;
+    
+    
+}
+h1:hover{
+    color:#d47f76;
+}
+h2{
+    color: #c0392b ;
+}
+
+h2:hover{
+       color: #c4675c ;
+    
+}
+h3{
+    color:  #a93226  ;
+}
+
+h3:hover{
+       color:  #ab453b  ;
+    
+}
+ul{
+    color: #922b21;
+}
+ul:hover{
+    color: #933c34;
+}
+p{
+    font-size: 18px; 
+}
+
+img{
+    width:500px;
+}
+a{
+    color:aliceblue
+}
