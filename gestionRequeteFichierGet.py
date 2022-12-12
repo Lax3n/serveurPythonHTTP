@@ -159,8 +159,7 @@ def createListofAnchor() -> str:
     listeanchor: str = ""
     for i in range(len(listeelement)):
         listeanchor += '<li><a href="%s">%s</a></li></br>' % (str(
-            removeExtension(listeelement[i])), removeExtension(
-                listeelement[i]))
+            removeExtension(listeelement[i])), removeExtension(listeelement[i]))
     return "<ul>" + listeanchor + "</ul>"
 
 
