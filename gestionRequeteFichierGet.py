@@ -204,6 +204,7 @@ def handlePostRequest(post: list[PostedData]) -> None:
     filename = ""
     # [PostedData(name='title', value='testest'), PostedData(name='content', value='test'), PostedData(name='pictureFileName', value=''), PostedData(name='pictureFile', value=b'')]
     for i in range(len(post)):
+        print(post)
         if post[i].name == "title":
             titre: str = post[i].value
             titre: str = titre.replace(" ", "-")
@@ -212,6 +213,7 @@ def handlePostRequest(post: list[PostedData]) -> None:
             body: str = post[i].value
             content.write(body)
         if post[i].name == "pictureFileName":
+            post[i].name=post[i].name.replace(" ","-")
             filename: str = post[i].value
         if post[i].name == "pictureFile":
             file = post[i].value

@@ -1,9 +1,3 @@
-salut
-
-c'est moi
-
-
-
-
-
+test test
+
 ##image-botdiscord.png##
